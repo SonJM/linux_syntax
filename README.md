@@ -1,1 +1,1 @@
-# linux_study
+# linux_syntax
