@@ -18,6 +18,9 @@ cd /
 cd home/son/jm_dir
 # 상위 폴더로 이동(상대 경로)
 cd ..
+# 이전에 있던 폴더로 이동
+cd -
+
 # 비어있는 파일 만들기
 touch first_file.txtc
 # 파일 내용 조회
