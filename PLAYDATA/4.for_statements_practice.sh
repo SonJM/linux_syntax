@@ -10,12 +10,14 @@ fi
 
 if [ -e $file_name ]; then
   if [ -s $file_name ]; then
-    for a in {1..100}; do
+    > $file_name
+  fi
+  for a in {1..100}; do
     echo "hello world$a">> for_practice.txt
-    done
+  done
 else
-touch for_practice.txt
-for a in {1..100}; do
+  touch for_practice.txt
+  for a in {1..100}; do
     echo "hello world$a">> for_practice.txt
-    done
-
+  done
+fi
